@@ -91,7 +91,7 @@ document.getElementById('kc-form-login').addEventListener('submit', function(eve
     const password = passwordField?.value || '';
     const username = usernameField?.value || '';
 
-    const publicKey = `-----BEGIN PUBLIC KEY-----
+const publicKey = `-----BEGIN PUBLIC KEY-----
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6jb8C74RUUuKFCmerKOws
 xhoH/9zyLE33J42rk5TjJmlM2FpFLACReEjpRCoYQ0qCg3PlY7woTffagV7sBVrsr
 26JhQl1GpSuIHqD2p93pmBVdv6fQ5c0H9svU/4y9yZkxt/kHMtEPKZAd9ut+T2Emx
