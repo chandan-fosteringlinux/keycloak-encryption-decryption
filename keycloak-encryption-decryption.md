@@ -91,9 +91,15 @@ document.getElementById('kc-form-login').addEventListener('submit', function(eve
     const password = passwordField?.value || '';
     const username = usernameField?.value || '';
 
-    const publicKey = \`-----BEGIN PUBLIC KEY-----
-...Your RSA Public Key...
------END PUBLIC KEY-----\`;
+    const publicKey = `-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6jb8C74RUUuKFCmerKOws
+xhoH/9zyLE33J42rk5TjJmlM2FpFLACReEjpRCoYQ0qCg3PlY7woTffagV7sBVrsr
+26JhQl1GpSuIHqD2p93pmBVdv6fQ5c0H9svU/4y9yZkxt/kHMtEPKZAd9ut+T2Emx
+Cx6zaY8jch+ExBZ1DbNJO2Z9cZDYmA5rV6TQ0HOHXWPdd8vM/r8S0rPKjbqPdTD5R
+3jsNiaepI7BViUJ5Pe3m7j30ca2aMuuJAVsG6cr7LZ7nvV94Yc4M3d2f+wtkF8V4i
+4QaJfVIdg7zcg/M1NBHcMxMJQ1YfKpBXttoA7QG9uyG7IvN7/AkiuuZSzqW0QIDAQ
+AB
+-----END PUBLIC KEY-----`;
 
     const encrypt = new JSEncrypt();
     encrypt.setPublicKey(publicKey);
