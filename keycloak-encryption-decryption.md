@@ -270,6 +270,11 @@ public class constants {
 
 ```
 
+### Compile the Code
+```
+mvn clean install -DskipTests
+```
+
 ### Starting Keycloak
 
 To start Keycloak during development first build as specified above, then run:
